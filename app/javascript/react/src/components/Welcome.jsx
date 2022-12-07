@@ -1,5 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
+import QuestionList from './QuestionList'
 
 const Welcome = () => {
     return(
@@ -8,6 +9,7 @@ const Welcome = () => {
                Hello World! Welcome to my site 
             </h1>
             <p className='lead'>This is the first lecture and there are many more coming</p>
+            <QuestionList />
         </div>
     )
 }
